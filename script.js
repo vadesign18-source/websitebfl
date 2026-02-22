@@ -31,11 +31,11 @@ const CHANNELS = [
   { id: "UCZHSRSIP9m2uxOAOlVJGytw",  name: "Danny"            },
   { id: "UCamUqGw_jBciNhBNwBcJFRg",  name: "Nathann"          },
   { id: "UCKciWscgYbPCuAdtX91x06w",  name: "Deplonnn"         },
-  { id: "UCGIlMDGpLkXz2OVPdPjxjgA",  name: "WION"             },
-  { id: "UCBi2mrWuNuyYy4gbM6fU18Q",  name: "ABC News"         },
-  { id: "UCGIlMDGpLkXz2OVPdPjxjgA",  name: "WION"             },
-  { id: "UCBi2mrWuNuyYy4gbM6fU18Q",  name: "ABC News"         },
-  { id: "UCGIlMDGpLkXz2OVPdPjxjgA",  name: "WION"             },
+  { id: "UCvrhggVJsdR6uYvuIrX_Grg",  name: "Dipiwww"          },
+  { id: "UCrvlbX01F8qtXlJDXX7czVg",  name: "Rey"              },
+  { id: "UCYKxEdT_OBIUv7_zJkyQkdg",  name: "AndreMemet"       },
+  { id: "UCQV0qkau8jIHyn5iRY6bIcg",  name: "Syacei"           },
+  { id: "UCKN2A4ShReXSHJER9_lfwLw",  name: "Bopeng16"         },
   // -------- ADD MORE CHANNELS BELOW --------
   // { id: "UCxxxxxxxxxxxxxxx", name: "Channel Name" },
 ];
