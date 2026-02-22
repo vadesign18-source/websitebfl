@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BFL TV - Multi-Watch Live Stream</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" rx="6" fill="url(#logoGrad)"/>
+          <path d="M9.5 7.5v9l7-4.5-7-4.5z" fill="white"/>
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="24" y2="24">
+              <stop stop-color="#FF0844"/>
+              <stop offset="1" stop-color="#FFB199"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">BFL<span class="logo-accent">TV</span></span>
+      </div>
+    </div>
+    <div class="header-center">
+      <span class="header-tagline">Multi-Watch Live Streaming</span>
+    </div>
+    <div class="header-right">
+      <div class="live-indicator">
+        <span class="live-dot"></span>
+        <span class="live-text">LIVE</span>
+      </div>
+      <button class="btn-layout" id="btnLayout" title="Change Layout">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+          <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+          <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+          <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Video Grid -->
+    <div class="video-grid" id="videoGrid">
+      <!-- Players are injected by script.js -->
+    </div>
+  </main>
+
+  <!-- Channel Bar -->
+  <nav class="channel-bar" id="channelBar">
+    <div class="channel-bar-header">
+      <span class="channel-bar-title">Channels</span>
+      <span class="channel-count" id="channelCount">0</span>
+    </div>
+    <div class="channel-list" id="channelList">
+      <!-- Channel badges injected by script.js -->
+    </div>
+  </nav>
+
+  <!-- Layout Modal -->
+  <div class="modal-overlay" id="layoutModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Choose Layout</h3>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="layout-options">
+        <button class="layout-option" data-layout="1">
+          <div class="layout-preview layout-1"><div></div></div>
+          <span>Single</span>
+        </button>
+        <button class="layout-option" data-layout="2">
+          <div class="layout-preview layout-2"><div></div><div></div></div>
+          <span>Dual</span>
+        </button>
+        <button class="layout-option active" data-layout="4">
+          <div class="layout-preview layout-4"><div></div><div></div><div></div><div></div></div>
+          <span>Quad</span>
+        </button>
+        <button class="layout-option" data-layout="6">
+          <div class="layout-preview layout-6"><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          <span>Hexa</span>
+        </button>
+        <button class="layout-option" data-layout="9">
+          <div class="layout-preview layout-9"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          <span>Nine</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
