@@ -23,9 +23,9 @@
 
 const CHANNELS = [
   // -------- CONFIGURE YOUR CHANNELS HERE --------
-  { id: "UCupvZG-5ko_eiXAupbDfxWw",  name: "CNN"              },
-  { id: "UCeY0bbntWzzVIaj2z3QigXg",  name: "NBC News"         },
-  { id: "UCaXkIU1QidjPwiAYu6GcHjg",  name: "Al Jazeera"       },
+  { id: "UCJTq8YQXj-2_BNgwis4SGsg",  name: "RonnyBons"        },
+  { id: "UChEzBCVwQg3EC7QjsF3iZHw",  name: "ZotaFrz"          },
+  { id: "UCBu6n7CY3k_HdX8THmyEOEw",  name: "Abeegel"          },
   { id: "UC16niRr50-MSBwiO3YDb3RA",  name: "BBC News"         },
   { id: "UCknLrEdhRCp1aegoMqRaCZg",  name: "DW News"          },
   { id: "UCef1-8eOpJgud7szVPlZQAQ",  name: "France 24"        },
