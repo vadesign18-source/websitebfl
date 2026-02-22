@@ -29,7 +29,7 @@ const CHANNELS = [
   { id: "UCz4s1BgKNXTwOHO0PHQHQxQ",  name: "Kafeyinhere"      },
   { id: "UCsUhlZAanKWUsZxqbPbjAOw",  name: "Fahrul Reyza"     },
   { id: "UCZHSRSIP9m2uxOAOlVJGytw",  name: "Danny"            },
-  { id: "UCamUqGw_jBciNhBNwBcJFRg",  name: "Nathan"           },
+  { id: "UCamUqGw_jBciNhBNwBcJFRg",  name: "Nathann"          },
   { id: "UCKciWscgYbPCuAdtX91x06w",  name: "Deplonnn"         },
   { id: "UCGIlMDGpLkXz2OVPdPjxjgA",  name: "WION"             },
   { id: "UCBi2mrWuNuyYy4gbM6fU18Q",  name: "ABC News"         },
